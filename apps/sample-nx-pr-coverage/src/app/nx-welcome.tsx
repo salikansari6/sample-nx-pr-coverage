@@ -9,6 +9,7 @@ export function NxWelcome({ title }: { title: string }) {
   return (
     <>
       <h1>Welcome {title}!</h1>
+      <h1>Welcome salik</h1>
     </>
   );
 }
