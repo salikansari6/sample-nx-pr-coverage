@@ -29,21 +29,21 @@ jobs:
         run: npm ci
 
       - name: Build (Nx Affected)
-        uses: mansagroup/nrwl-nx-action@v2
+        uses: mansagroup/nrwl-nx-action@v3
         with:
           targets: build
           affected: true
           nxCloud: false
 
       - name: Lint (Nx Affected)
-        uses: mansagroup/nrwl-nx-action@v2
+        uses: mansagroup/nrwl-nx-action@v3
         with:
           targets: lint
           affected: true
           nxCloud: false
 
       - name: Test with Coverage (Nx Affected)
-        uses: mansagroup/nrwl-nx-action@v2
+        uses: mansagroup/nrwl-nx-action@v3
         with:
           targets: test
           affected: true
