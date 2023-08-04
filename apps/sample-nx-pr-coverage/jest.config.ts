@@ -8,4 +8,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../coverage/apps/sample-nx-pr-coverage',
+  coverageReporters: ['cobertura', 'lcov', 'text', 'json'],
 };
