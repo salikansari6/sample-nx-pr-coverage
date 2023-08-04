@@ -71,3 +71,4 @@ jobs:
           gist-id: 73871cc6c5bbf02bfb5fc64f5f03be92
           color: green
           named-logo: jest
+          no-coverage-ran: false
